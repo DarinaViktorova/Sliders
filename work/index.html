@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №4</title>
+    <!-- Підключення стилей -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- Шапка сайту -->
+    <nav class="navbar navbar-expand-md navbar-light bg-warning sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brad">
+                <img src="../images/coffee.png" width="35" height="45">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Для відображення меню -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#main" class="nav-link">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pictures" class="nav-link">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#author" class="nav-link">Author</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Слайдер зображень з використанням Вootstrap-->
+    <div class="carousel slide" data-ride="carousel" id="slides">
+        <!-- Індикатори -->
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="main">
+                <img src="../images/owl.png">
+                <div class="carousel-caption">
+                    <h5>First slide</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../images/coffeeAndDonut.png">
+                <div class="carousel-caption">
+                    <h5>Second slide</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../images/coffee.png">
+                <div class="carousel-caption">
+                    <h5>Third slide</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Елементи керування Bootstrap -->
+    </div>
+    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev" style="height: 70%;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Prev</span>
+    </a>
+    <a class="carousel-control-next" href="#slides" role="button" data-slide="next" style="height: 70%;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <!-- Основний блок сайту -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p class="lead">
+                    Bootstrap<br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quae nihil mollitia repudiandae
+                    excepturi hic ipsam rem maiores harum sapiente a eum laboriosam modi, voluptatibus porro
+                    perspiciatis tenetur quo obcaecati?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+                    qui animi ipsam? Nobis asperiores
+                    tempore quae corrupti laboriosam? Deserunt consequatur provident consectetur id quibusdam inventore
+                    facere, eveniet quo similique ad?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quae nihil mollitia repudiandae
+                    excepturi hic ipsam rem maiores harum sapiente a eum laboriosam modi, voluptatibus porro
+                    perspiciatis tenetur quo obcaecati?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+                    qui animi ipsam? Nobis asperiores
+                    tempore quae corrupti laboriosam? Deserunt consequatur provident consectetur id quibusdam inventore
+                    facere, eveniet quo similique ad?
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- Pictures -->
+    <!--  Для порівння цей слайдер написаний без використання bootstrap -->
+    <div class="container" id="pictures">
+        <h3 style="text-align: center;">Pictures</h3>
+        <!-- Картинки повного розміру з нумерацією -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="../images/coffee1.jpg" style="width:50%; height:50%; display: block; margin: auto;">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="../images/coffee31.jpg" style="width:50%; height:50%; display: block; margin: auto;">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="../images/coffee2.jpg" style="width:50%; height:50%; display: block; margin: auto;">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="../images/coffee4.jpg" style="width:50%; height:50%; display: block; margin: auto;">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="../images/coffee5.jpg" style="width:50%; height:50%; display: block; margin: auto;">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="../images/coffee6.jpg" style="width:50%; height:50%; display: block; margin: auto;">
+        </div>
+
+        <!-- Елементи керування -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Підпис картинки -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+        <!-- мініатюри -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="../images/coffee1.jpg"
+                    style="width:100%; height:50%; display: block; margin: auto;" onclick="currentSlide(1)"
+                    alt="Coffee First">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/coffee31.jpg"
+                    style="width:100%; height:50%;  display: block; margin: auto;" onclick="currentSlide(2)"
+                    alt="Coffee Second">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/coffee2.jpg"
+                    style="width:100%; height:50%;  display: block; margin: auto;" onclick="currentSlide(3)"
+                    alt="Coffee Third">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/coffee4.jpg"
+                    style="width:100%; height:50%; display: block; margin: auto;" onclick="currentSlide(4)"
+                    alt="Coffee Fourth">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/coffee5.jpg"
+                    style="width:100%; height:50%;  display: block; margin: auto;" onclick="currentSlide(5)"
+                    alt="Coffee Fifth">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/coffee6.jpg"
+                    style="width:100%; height:50%;  display: block; margin: auto;" onclick="currentSlide(6)"
+                    alt="Coffee Sixth">
+            </div>
+        </div>
+    </div>
+    </div>
+    <section>
+        <div style="height: 10px;">
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p class="lead">
+                    HTML, CSS, JS <br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quae nihil mollitia repudiandae
+                    excepturi hic ipsam rem maiores harum sapiente a eum laboriosam modi, voluptatibus porro
+                    perspiciatis tenetur quo obcaecati?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+                    qui animi ipsam? Nobis asperiores
+                    tempore quae corrupti laboriosam? Deserunt consequatur provident consectetur id quibusdam inventore
+                    facere, eveniet quo similique ad?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptatibus sequi, pariatur numquam quidem eius non. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Beatae quae nihil mollitia repudiandae
+                    excepturi hic ipsam rem maiores harum sapiente a eum laboriosam modi, voluptatibus porro
+                    perspiciatis tenetur quo obcaecati?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+                    qui animi ipsam? Nobis asperiores
+                    tempore quae corrupti laboriosam? Deserunt consequatur provident consectetur id quibusdam inventore
+                    facere, eveniet quo similique ad?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptatibus sequi, pariatur numquam quidem eius non.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div style="height: 10px;">
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid" id="author">
+        <div class="container">
+            <div class="row padding text-center">
+                <div class="col-12" style="height: 400px;">
+                    <h3>
+                        Darina Viktorova <br>
+                        KI-191
+                    </h3>
+                    <div class="col-12 socialPadding">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        new ChiefSlider('.slider', {
+            loop: false,
+            swipe: false
+        });;
+        document.addEventListener('DOMContentLoaded', function () {
+            new ChiefSlider('.slider');
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            var elms = document.querySelectorAll('.slider');
+            for (var i = 0, len = elms.length; i < len; i++) {
+                new ChiefSlider(elms[i]);
+            }
+        });
+        {
+            loop: true;
+            autoplay: false;
+            interval: 5000;
+            swipe: true;
+            refresh: false
+        }
+    </script>
+</body>
+
+</html>

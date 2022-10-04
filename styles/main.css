@@ -1,0 +1,157 @@
+/* Стилі для першого слайдеру */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  color: #222;
+  background: #d1b19b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-inner img {
+  width: 400px;
+  height: 400px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  color: #FFEFD5;
+
+}
+
+hr {
+  border-top: 2px solid;
+  color: chocolate;
+  width: 95%;
+  margin-top: 0.3em;
+}
+
+/* Стилі для другого слайдеру */
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Текст нумерації */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* для підпису картинок */
+.caption-container {
+  text-align: center;
+  background-color: #d1b19b;
+  padding: 2px 16px;
+  color: #222;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 6 колонок */
+.column {
+  float: left;
+  width: 16.66%;
+  height: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Стилі для Footer */
+.socialPadding a {
+  height: 60px;
+  font-size: 4em;
+  padding: 10px;
+}
+
+/* Позначки для Footer */
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+  color: aqua;
+}
